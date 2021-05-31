@@ -20,7 +20,6 @@ function bang()
 		var c = thestring.charAt(i); // current character
 		for(var j = 0;j<therules.length;j++)
 		{
-
 			if(c==therules[j][0]) match = j;
 		}
 		if(match>-1) // the rule exists
